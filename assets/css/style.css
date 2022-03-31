@@ -1,0 +1,67 @@
+
+section{
+    border: 0.5mm solid black;
+    border-radius: 1mm;
+    
+}
+
+h2{
+    font-size: 15 mm;
+    text-shadow: 1.5mm 1.5mm black;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(77, 75, 75);
+    text-align: center;
+    color:white;
+    padding:4mm;
+    margin:0;
+}
+
+article{
+    border: 1.5mm solid black;
+    border-radius: 2mm;
+    padding: 2mm 10mm;
+    margin: 10mm 5mm;
+    background-color:rgb(128, 120, 120);
+}
+p{
+    font-size:7mm;
+    color:white;
+}
+
+
+
+article ul li::before{
+    content: ' \2022';
+    padding-right: 1.5mm;
+    color:gray;
+    text-shadow: 1.5mm 0 black;
+}
+
+
+article ul li:first-child{
+    color:rgb(8, 8, 8);
+    background-color:white;
+    font-size: 0.7cm;
+    list-style-type: none;
+}
+
+
+article ul li:nth-child(2){
+    color:white;
+    font-size: 1cm;
+    list-style-type: none;
+
+}
+
+article ul li:last-child{
+    color:rgb(0, 0, 0);
+    background-color:white;
+    font-size: 1.2cm;
+    list-style-type: none;
+
+}
+    
+h3{
+font-size:15mm;
+color: white;
+}
